@@ -1,0 +1,15 @@
+{
+  "name": "zenn-content",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zenn articles managed by zenn-cli",
+  "type": "commonjs",
+  "scripts": {
+    "preview": "zenn preview",
+    "new": "zenn new:article",
+    "new:article": "zenn new:article"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.2.3"
+  }
+}
